@@ -1,0 +1,166 @@
+* {
+
+}
+
+body {
+  width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+header {
+  border-bottom: 10px solid #999;
+}
+.header-left {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.header-left img {
+
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+
+.header-left-text {
+  display: inline-block;
+}
+
+.header-left-text p:first-child {
+  font-size: 200%;
+  font-family: 'Yellowtail', cursive;
+}
+.header-left-text p:last-child {
+  font-size: 100%;
+  font-family: 'Abel', sans-serif;
+}
+
+.header-right {
+  float: right;
+  margin-top: 20px;
+}
+.header-right ul {
+  list-style: none;
+  display: inline-block;
+}
+.header-right li {
+  display: inline;
+}
+
+.h3-left {
+
+  float: left;
+  margin-bottom: 35px;
+}
+
+.h3-right {
+
+  float: right;
+  margin-left: 8px;
+}
+.h3-right img {
+  height: 12px;
+  width: 12px;
+
+}
+
+article img {
+  width: 100%;
+}
+
+article h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  margin-top: 70px;
+}
+article h3 {
+  font-family: 'Abel', sans-serif;
+  margin-top: 10px;
+}
+article p {
+  text-indent: 2em;
+  font-family: 'Arapey', serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 110%;
+  line-height: 150%;
+}
+
+div.recipe-card {
+  background-image: url("../img/list-bg.png");
+  width: 100%;
+  height: 300px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 110%;
+}
+form {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 50px;
+}
+td {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 90%;
+  column-width: 50%;
+}
+
+div#filler {
+  border-bottom: 10px solid #999;
+  margin-top: 50px; 
+}
+.author-quote {
+  margin-top: 30px;
+  display:inline-block;
+  width: 70%;
+
+}
+.author-quote img {
+
+  height: 125px;
+  width: 125px;
+  float: left;
+  margin-right: 10px;
+}
+.author-quote-text {
+
+  text-indent: 0;
+
+}
+.author-quote-text p {
+  text-indent: 0;
+
+}
+.author-quote-text p:first-child {
+  font-size: 200%;
+}
+.author-quote-text p:last-child {
+  font-size: 100%;
+}
+article button {
+  display: inline-block;
+  padding: 15px 35px;
+  font-size: 120%;
+  background-color: rgb(173, 86, 57);
+  color: white;
+  float: right;
+  margin-top: 35px;
+} 
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Arapey', serif;
+  font-size: 80%;
+}
+footer p {
+  line-height: 130%;
+}
+footer p:first-of-type {
+  margin-top: 8px;
+}
